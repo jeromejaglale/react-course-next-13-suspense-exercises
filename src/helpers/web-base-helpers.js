@@ -4,7 +4,7 @@ export async function getNavLinks() {
   console.info(
     'Requesting navigation links from CMS'
   );
-  await delay(1800);
+  await delay(2800);
 
   return LINKS;
 }
